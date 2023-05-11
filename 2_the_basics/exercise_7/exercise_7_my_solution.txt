@@ -1,0 +1,1 @@
+There is a { with no closing } perhaps related to a hash or block
