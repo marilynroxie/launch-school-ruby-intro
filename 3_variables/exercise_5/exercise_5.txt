@@ -1,0 +1,4 @@
+In the first case, x prints 3.
+
+In the second case, x results in an error because x will not be 
+available outside of the block's scope.
