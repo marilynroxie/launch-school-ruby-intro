@@ -4,10 +4,7 @@ family = {  uncles: ["bob", "joe", "steve"],
             aunts: ["mary","sally","susan"]
           }
 
-siblings = family.select { |key, value| 
-  key == :sisters || key == :brothers
-}
+siblings = family.select { |key, value|
+key == :sisters || key == :brothers }.values.flatten
 
-combined_siblings = siblings.values.flatten
-
-p combined_siblings
+p siblings
